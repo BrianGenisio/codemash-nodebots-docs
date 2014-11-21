@@ -1,3 +1,5 @@
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bruth/jekyll-docs-template/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+# Welcome
 
-Read the docs: http://bruth.github.io/jekyll-docs-template
+This is a Github Pages site for Codemash Nodebots!  All of the content is on the [`gh-pages`](tree/gh-pages) branch.
+
+This site uses Jekyll and is based off of [The Jekyll Docs Template](https://github.com/bruth/jekyll-docs-template)
