@@ -40,6 +40,7 @@ code {
 }
 
 #header {
+    background-color: #f7df1e;
     border-bottom: 1px solid #eee;
     margin-bottom: 20px;
 }
@@ -73,4 +74,14 @@ code {
     padding-right: 0;
     font-size: 1.1em;
     font-weight: bold;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+#header .logo {
+    float: right;
+    width: 33px;
+    margin-top: -10px;
 }
