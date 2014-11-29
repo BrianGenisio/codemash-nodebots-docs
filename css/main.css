@@ -85,3 +85,7 @@ code {
     width: 33px;
     margin-top: -10px;
 }
+
+.what-is-codemash p:first-of-type{
+    text-align: center;
+}
