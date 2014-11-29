@@ -1,3 +1,24 @@
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
 body {
     font-weight: 400;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
@@ -47,12 +68,9 @@ code {
     font-size: 0.9em;
 }
 
-#navigation li a {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 #navigation .nav-header {
     padding-left: 0;
     padding-right: 0;
+    font-size: 1.1em;
+    font-weight: bold;
 }
