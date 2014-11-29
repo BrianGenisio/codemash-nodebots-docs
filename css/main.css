@@ -93,3 +93,7 @@ code {
 .what-is-nodebots p:first-of-type {
     text-align: center;
 }
+
+.carousel {
+  text-align: center;
+}
