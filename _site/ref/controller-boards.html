@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+
+        <title>NodeBots @CodeMash : Alternative Controller Boards</title>
+        <meta name="description" content="Documentation for your building pleasure">
+
+        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link href="/css/bootstrap-theme.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/syntax.css">
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div id="header" class="col-md-12">
+                    <h4><a class=brand href="/">NodeBots @CodeMash</a>
+    <small>Documentation for your building pleasure</small>
+</h4>
+
+
+                </div>
+            </div>
+
+            <div class="row">
+                
+                
+                    <div id="navigation" class="col-md-2">
+                        <ul class="nav nav-list">
+    <li><a href="/">Home</a></li>
+    
+        
+        
+
+        
+            
+                <li class=nav-header>Documentation</li>
+            
+            <li data-order="2"><a href="/doc/who-sponsors-this.html">Who Sponsors This?</a></li>
+        
+            
+            <li data-order="1"><a href="/doc/what-is-johnny-five.html">What Is Johnny-Five?</a></li>
+        
+            
+            <li data-order="0"><a href="/doc/what-is-codemash.html">What is CodeMash?</a></li>
+        
+            
+            <li data-order="0"><a href="/doc/what-are-nodebots.html">What Are NodeBots?</a></li>
+        
+    
+        
+        
+
+        
+            
+                <li class=nav-header>Activities</li>
+            
+            <li data-order="1"><a href="/act/line-racers.html">Line Racers</a></li>
+        
+            
+            <li data-order="2"><a href="/act/hack-act.html">Hacking</a></li>
+        
+            
+            <li data-order="0"><a href="/act/battle-bots.html">Battle Bots</a></li>
+        
+    
+        
+        
+
+        
+            
+                <li class=nav-header>Tutorial</li>
+            
+            <li data-order="1"><a href="/tut/sensor-kit.html">Adding Line-Following Sensors</a></li>
+        
+            
+            <li data-order="0"><a href="/tut/building-the-reference-bot.html">Building the Reference Kit</a></li>
+        
+    
+        
+        
+
+        
+            
+                <li class=nav-header>Reference</li>
+            
+            <li data-order="1"><a href="/ref/tools.html">Tools</a></li>
+        
+            
+            <li data-order="3"><a href="/ref/platforms.html">Platforms</a></li>
+        
+            
+            <li data-order="2"><a href="/ref/going-wireless.html">Going Wireless</a></li>
+        
+            
+            <li data-order="4"><a href="/ref/controller-boards.html">Alternative Controller Boards</a></li>
+        
+            
+            <li data-order="0"><a href="/ref/components.html">Components</a></li>
+        
+    
+        
+        
+
+        
+    
+        
+        
+
+        
+    
+<!-- List additional links. It is recommended to add a divider
+    e.g. <li class=divider></li> first to break up the content. -->
+</ul>
+
+                    </div>
+
+                    <div id="content" class="col-md-10">
+                        <div class="page-header">
+    <h2>Alternative Controller Boards
+        
+    </h2>
+</div>
+
+<h2 id="talk-about-the-alternative-boards-we-have-available-to-play-with">Talk about the alternative boards we have available to play with</h2>
+
+<ul>
+<li>Galileo + Windows 8</li>
+<li>Tessel.io</li>
+<li>Spark Core</li>
+</ul>
+
+
+                    </div>
+                
+            </div>
+
+            <div class="row">
+                <div id="footer" class="col-md-12">
+                    Documentation for <a href="https://github.com/BrianGenisio/codemash-nodebots-docs">NodeBots @CodeMash</a>
+
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function orderNav() {
+                var list,
+                    section,
+                    header,
+                    sections = [],
+                    lists = {},
+                    headers = {};
+
+                var navUl = document.querySelectorAll('#navigation ul')[0],
+                    navLis = document.querySelectorAll('#navigation ul li');
+
+                if (!navUl) return;
+
+                for (var i = 0; i < navLis.length; i++) {
+                    var order, li = navLis[i];
+
+                    if (li.classList.contains('nav-header')) {
+                        section = li.textContent || li.innerText;
+                        sections.push(section);
+                        headers[section] = li;
+                        continue;
+                    }
+
+                    if (!lists[section]) {
+                        lists[section] = [];
+                    }
+
+                    order = parseFloat(li.getAttribute('data-order'))
+                    lists[section].push([order, li]);
+                }
+
+                for (var i = 0; i < sections.length; i++) {
+                    section = sections[i];
+                    list = lists[section].sort(function(a, b) {
+                        return a[0] - b[0];
+                    });
+
+                    if (header = headers[section]) {
+                        navUl.appendChild(header);
+                    }
+                    for (var j = 0; j < list.length; j++) {
+                        navUl.appendChild(list[j][1]);
+                    }
+                }
+            }
+
+            if (document.querySelectorAll) orderNav();
+        </script>
+    </body>
+</html>
