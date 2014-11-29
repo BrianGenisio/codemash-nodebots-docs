@@ -34,6 +34,8 @@ highlighter: pygments
 # Since these are pages, it doesn't really matter
 future: true
 
+include: ['assets', 'fonts', 'css']
+
 # Exclude non-site files
 exclude: ['bin', 'README.md']
 
