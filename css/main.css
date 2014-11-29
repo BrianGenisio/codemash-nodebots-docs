@@ -86,6 +86,10 @@ code {
     margin-top: -10px;
 }
 
-.what-is-codemash p:first-of-type{
+.what-is-codemash p:first-of-type {
+    text-align: center;
+}
+
+.what-is-nodebots p:first-of-type {
     text-align: center;
 }
