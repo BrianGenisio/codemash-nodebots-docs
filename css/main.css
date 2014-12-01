@@ -98,6 +98,10 @@ code {
     text-align: center;
 }
 
+.who-sponsors-this p:first-of-type {
+    text-align: center;
+}
+
 .what-is-johnny-five p:first-of-type img {
     width: 300px;
 }
