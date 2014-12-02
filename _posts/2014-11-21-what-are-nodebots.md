@@ -27,16 +27,16 @@ We will be using [Johnny-Five](https://github.com/rwaldron/johnny-five), a JavaS
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="/codemash-nodebots-docs/assets/hacking.jpeg" />
+      <img src="/assets/hacking.jpeg" />
     </div>
     <div class="item">
-      <img src="/codemash-nodebots-docs/assets/soccer.jpeg" />
+      <img src="/assets/soccer.jpeg" />
     </div>
     <div class="item">
-      <img src="/codemash-nodebots-docs/assets/alf.jpeg" />
+      <img src="/assets/alf.jpeg" />
     </div>
     <div class="item">
-      <img src="/codemash-nodebots-docs/assets/pinky.jpeg" />
+      <img src="/assets/pinky.jpeg" />
     </div>
   </div>
 
