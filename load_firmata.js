@@ -6,7 +6,7 @@ var fs = require('fs');
 
 var usbttyRE = /(cu\.usb|ttyACM|COM\d+)/;
 
-var data = fs.readFileSync('node_modules/stk500/arduino-1.0.6/uno/StandardFirmata.cpp.hex', { encoding: 'utf8' });
+var data = fs.readFileSync('binaries/StandardFirmata.PlusPing.Plus8A.hex', { encoding: 'utf8' });
 
 var hex = intel_hex.parse(data).data;
 
