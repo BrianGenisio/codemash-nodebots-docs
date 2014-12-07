@@ -106,6 +106,10 @@ code {
     width: 300px;
 }
 
+.hack-act p:last-of-type {
+  text-align: center;
+}
+
 .carousel {
   text-align: center;
 }

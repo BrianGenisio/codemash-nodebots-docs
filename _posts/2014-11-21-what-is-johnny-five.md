@@ -7,7 +7,7 @@ date: 2014-11-21
 order: 1
 ---
 
-![CodeMash logo]({{ site.baseurl }}/assets/sgier-johnny-five.png)
+![Johnny-Five logo]({{ site.baseurl }}/assets/sgier-johnny-five.png)
 
 [Johnny-Five](https://github.com/rwaldron/johnny-five) is a [Node.js](http://nodejs.org) based robotics framework.  It has been compared to jQuery, but for hardware, because it normalizes hardware through a common API and has a similar event-driven interface.
 
