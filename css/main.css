@@ -76,14 +76,14 @@ code {
     font-weight: bold;
 }
 
-.jumbotron {
-    text-align: center;
-}
-
 #header .logo {
     float: right;
     width: 33px;
     margin-top: -10px;
+}
+
+.intro p:first-of-type {
+  text-align: center;
 }
 
 .what-is-codemash p:first-of-type {
