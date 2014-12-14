@@ -4,9 +4,8 @@
   "description": "Examples and documentation for NodeBots CodeMash",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "bootstrap": "npm install --build-from-source && node load_firmata.js"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
   "repository": {
     "type": "git",
     "url": "https://github.com/BrianGenisio/codemash-nodebots-docs.git"
@@ -18,10 +17,6 @@
   },
   "homepage": "https://github.com/BrianGenisio/codemash-nodebots-docs",
   "dependencies": {
-    "async": "^0.9.0",
-    "intel-hex": "^0.1.1",
-    "johnny-five": "^0.8.32",
-    "serialport": "git://github.com/jacobrosenthal/node-serialport#controlsignals",
-    "stk500": "0.0.6"
+    "johnny-five": "^0.8.32"
   }
 }
