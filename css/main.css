@@ -110,6 +110,10 @@ code {
     width: 300px;
 }
 
+.getting-started img {
+  width: 500px;
+}
+
 .hack-act p:last-of-type {
   text-align: center;
 }
