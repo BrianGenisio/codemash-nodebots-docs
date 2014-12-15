@@ -36,7 +36,8 @@ board.on("ready", function() {
 
 **LED Blink Wiring:**
 
-![LED Wiring Diagram]({{ site.baseurl }}/assets/wirings/led.png) 
+![LED Wiring Diagram]({{ site.baseurl }}/assets/wirings/led.png)
+![LED Wiring Diagram]({{ site.baseurl }}/assets/wirings/led.jpg) 
 
 ## Make the LED pulse
 In the last example, you told the LED to turn on and off.  Internally, the `strobe()` method just turns the pin high and low over time.  We'd like to change this program to fade in and out over time.  Instead of going high or low, you will be using the PWM (pulse width modulation) features of the board.  You can set the values to anywhere between `0` and `255` which will create a "square wave" with a duty cycle that simulates a "percentage on".  
@@ -79,6 +80,7 @@ board.on("ready", function() {
 **Potentiometer Input Wiring:**
 
 ![Potentiometer Wiring Diagram]({{ site.baseurl }}/assets/wirings/led_control.png) 
+![Potentiometer Wiring Diagram]({{ site.baseurl }}/assets/wirings/led_control.jpg) 
 
 ## Control the LED using the Potentiometer
 Now that you know how to control the brightness of your LED and you know how to read an input, let's put these two together.  You want small changes in your potentiometer to adjust your LED brightness, so you need to do some translation.  
