@@ -47,9 +47,9 @@ Give it a try.  Change `strobe()` to `brightness(100)` and re-run your script.  
 Now, change `brightness(100)` to `pulse(1000)`.  You are telling your LED to pulse between `0` and `255` over a 1-second interval.
 
 ## Read Input using a Potentiometer
-A potentiometer (included) is a device that allows you to phisically alter the resistance by turning a screw or sliding a lever.  It is a lot like a variable, but in hardware!  The included potentiometer is variable betw 0ohm and 10Kohm over 20 full turns.  It has three pins.  The center pin will be variable and the outside pins will measure x or 10k-x.  
+A potentiometer (included) is a device that allows you to physically alter the resistance by turning a screw or sliding a lever.  It is a lot like a variable, but in hardware!  The included potentiometer is variable between 0ohm and 10Kohm over 20 full turns.  It has three pins.  The center pin will be variable and the outside pins will measure x or 10k-x.  
 
-If you send a voltage from one ontside pin to the ground of the other outside pin, the middle pin becomes a "voltage divider".  If you attach the center pin to an analog input on your Arduino, you can read the value (`0` through `1023`).
+If you send a voltage from one outside pin to the ground of the other outside pin, the middle pin becomes a "voltage divider".  If you attach the center pin to an analog input on your Arduino, you can read the value (`0` through `1023`).
 
 0. Put the potentiometer on your breadboard.
 0. Connect the 5V line from your Arduino to one of the end pins of your potentiometer.
@@ -68,7 +68,7 @@ var board = new five.Board();
 board.on("ready", function() {
   (new five.Led(11)).strobe();
 
-  var input = five.Sensor("A0");
+  var input = new five.Sensor("A0");
 
   input.on("data", function() {
     console.log(this.value);
