@@ -6,8 +6,16 @@ date: 2014-11-21
 order: 4
 ---
 
-## Talk about the alternative boards we have available to play with
+If you'd like to experiment with something other than an Arduino, we have some alternative computers that you can use.  These units all have their own advantages over the Arduino but will take some extra tinkering to get them working.
 
-- Galileo + Windows 8
-- Tessel.io
-- Spark Core
+## Electronic Imp
+
+## Beaglebone Black
+
+## Spark Core
+
+## Galileo
+
+## Tessel
+
+## Extra Arduinos

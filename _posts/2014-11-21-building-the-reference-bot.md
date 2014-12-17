@@ -20,7 +20,7 @@ The kit you were given includes the following components:
 - (4) Zipties
 - (6) #6x3/8" Self-Drilling Screws
 - (1) LED
-- (1) Resitor
+- (1) 220 Ohm Resitor
 - (1) 10K Potentiometer
 
 You are encouraged to build your bot however you want, but this is how you can build it without any modifications from the original design.
