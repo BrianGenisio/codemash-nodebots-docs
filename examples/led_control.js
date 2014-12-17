@@ -1,10 +1,6 @@
 var five = require("johnny-five");
 var board = new five.Board();
 
-var sway = 10;
-var initialValue = 50;
-);
-
 board.on("ready", function() {
 
   var input = new five.Sensor("A0");
