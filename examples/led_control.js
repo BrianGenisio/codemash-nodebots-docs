@@ -1,6 +1,10 @@
 var five = require("johnny-five");
 var board = new five.Board();
 
+var sway = 10;
+var initialValue = 50;
+);
+
 board.on("ready", function() {
 
   var input = new five.Sensor("A0");
@@ -18,15 +22,9 @@ board.on("ready", function() {
   function setLed(value) {
     // sway +/- points to control the LED
     var sway = 10;
-    var min = initialValue - sway;
-    var max = initialValue + sway;
-    var percentage = (value - min) / (max - min);
+    var brightness = five.Fn.map(value, initialValue - sway, initialValue + sway, 0, 255);
 
-    // Keep the percentage between 0 and 1
-    percentage = percentage > 1 ? 1 : percentage;
-    percentage = percentage < 0 ? 0 : percentage;
-
-    console.log("setting LED to " + (percentage * 100).toFixed(0) + "%");
-    led.brightness(255 * percentage);
+    console.log("setting LED to " + brightness);
+    led.brightness(brightness);
   }
 });
