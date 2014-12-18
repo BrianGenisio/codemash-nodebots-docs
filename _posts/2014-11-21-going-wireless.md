@@ -6,4 +6,5 @@ date: 2014-11-21
 order: 2
 ---
 
-## Talk about the Bluetooth module
+
+## Bluetooth, WiFi, and RF
