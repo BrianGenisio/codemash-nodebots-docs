@@ -9,27 +9,27 @@ board.on("ready", function () {
     var wheels = {
         left: new five.Servo({ pin: 9, type: 'continuous' }),
         right: new five.Servo({ pin: 10, type: 'continuous' }),
-        completeStop: function () {
+        stop: function () {
             wheels.left.center();
             wheels.right.center();
         },
-        goForward: function () {
+        forward: function () {
             wheels.left.ccw();
             wheels.right.cw();
             console.log("goForward");
         },
-        turnLeft: function () {
+        pivotLeft: function () {
             wheels.left.center();
             wheels.right.cw();
             console.log("turnLeft");
         },
-        turnRight: function () {
+        pivotRight: function () {
             wheels.left.ccw();
             wheels.right.center();
             console.log("turnRight");
         }
     };
-    wheels.completeStop();
+    wheels.stop();
     
     var calibrating = true;
     var eyes = new five.IR.Reflect.Array({
@@ -38,7 +38,6 @@ board.on("ready", function () {
     });
     eyes.enable();
     
-    console.log("Hit enter to begin calibration...");
     stdin.once("keypress", function () {
         // Start calibration
         // All sensors need to see the extremes so they can understand what a line is,
@@ -57,11 +56,11 @@ board.on("ready", function () {
                         // Start watching the line and driving
                         eyes.on("line", function (err, line) {
                             if (line < 1000) {
-                                wheels.turnRight();
+                                wheels.pivotRight();
                             } else if (line > 4000) {
-                                wheels.turnLeft();
+                                wheels.pivotLeft();
                             } else {
-                                wheels.goForward();
+                                wheels.forward();
                             }
                             console.log(line);
                         });
@@ -70,9 +69,7 @@ board.on("ready", function () {
                             stdin.once("keypress", function () {
                                 // Stop the bot and quit
                                 eyes.removeAllListeners();
-                                wheels.completeStop();
-                                // Need to give time for the signals to get to the wheels
-                                setTimeout(function () { process.exit(0); }, 250);
+                                wheels.stop();
                             });
                         });
                     });
