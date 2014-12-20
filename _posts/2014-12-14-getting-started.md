@@ -20,7 +20,9 @@ In this example, we'll just get an LED to blink.
 0. From there, install Johnny-Five: `npm install johnny-five`.  This will install into your "node_modules" folder.
 0. Create a file called "bot.js" and add the [LED Blink Code](#ledblink).
 0. Wire up an LED (provided) to pin 11 with a resistor (provided) in serial to ground.
+    - IMPORTANT: One leg of the LED is longer than the other. As shown in the wiring diagram below, make sure the shorter leg is connected to ground via the resistor and the longer leg is connected to pin 11.
 0. Run your bot: `node bot.js`.  You should see the LED blinking!
+    - If your LED is not lighting, double check you wired it correctly as noted in the previous step and shown in the wiring diagram below.
 
 <a name="ledblink"></a>
 **LED Blink Code:**
