@@ -44,6 +44,7 @@ board.on("ready", function () {
     // All sensors need to see the extremes so they can understand what a line is,
     // so move the eyes over the materials that represent lines and not lines during calibration.
     eyes.calibrateUntil(function () { return !calibrating; });
+    console.log("Press any key to end calibration and start running...");
     
     stdin.on("keypress", function() {
         calibrating = false;
