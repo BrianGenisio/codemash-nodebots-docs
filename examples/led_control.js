@@ -17,7 +17,7 @@ board.on("ready", function() {
 
   function setLed(value) {
     // sway +/- points to control the LED
-    var sway = 10;
+    var sway = 50;
     var brightness = five.Fn.map(value, initialValue - sway, initialValue + sway, 0, 255);
 
     console.log("setting LED to " + brightness);
