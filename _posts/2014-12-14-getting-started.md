@@ -9,6 +9,8 @@ order: 1
 
 This guide is intended to get you familiar with using Johnny-Five to control inputs and outputs of your Arduino.  This section is completely optional, but it is a good way to start.  Do as much as you'd like, or jump right into building your bot.  Your choice!
 
+WARNING: Some LEDs can be very bright, so you should avoid looking directly into them.
+
 ## Make an LED blink!
 First step, let's make sure everything is working.  You will be running JavaScript on your computer which will communicate to your Arduino board via Serial.
 
