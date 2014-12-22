@@ -25,14 +25,7 @@ In this example, we'll just get an LED to blink.
 <a name="ledblink"></a>
 **LED Blink Code:**
 
-```javascript
-var five = require("johnny-five");
-var board = new five.Board();
-
-board.on("ready", function() {
-  (new five.Led(11)).strobe();
-});
-```
+<script src="http://gist-it.appspot.com/github/BrianGenisio/codemash-nodebots-docs/blob/master/examples/strobe.js"></script>
 
 **LED Blink Wiring:**
 
@@ -61,20 +54,7 @@ If you send a voltage from one outside pin to the ground of the other outside pi
 <a name="potinput"></a>
 **Potentiometer Input Code:**
 
-```javascript
-var five = require("johnny-five");
-var board = new five.Board();
-
-board.on("ready", function() {
-  (new five.Led(11)).strobe();
-
-  var input = new five.Sensor("A0");
-
-  input.on("data", function() {
-    console.log(this.value);
-  });
-});
-```
+<script src="http://gist-it.appspot.com/github/BrianGenisio/codemash-nodebots-docs/blob/master/examples/read-sensor.js"></script>
 
 <a name="potinput_wiring"></a>
 **Potentiometer Input Wiring:**
@@ -95,30 +75,4 @@ Instead, you can store the initial value and translate a swing of a small change
 <a name="led_control"></a>
 **LED Control Code:**
 
-```javascript
-var five = require("johnny-five");
-var board = new five.Board();
-
-board.on("ready", function() {
-  var input = new five.Sensor("A0");
-  var led = new five.Led(11);
-  var initialValue;
-
-  input.on("data", function() {
-    if(initialValue === undefined) {
-      initialValue = this.value;
-    }
-
-    setLed(this.value);
-  });
-
-  function setLed(value) {
-    // sway +/- points to control the LED
-    var sway = 10;
-    var brightness = five.Fn.map(value, initialValue - sway, initialValue + sway, 0, 255);
-
-    console.log("setting LED to " + brightness);
-    led.brightness(brightness);
-  }
-});
-```
+<script src="http://gist-it.appspot.com/github/BrianGenisio/codemash-nodebots-docs/blob/master/examples/led_control.js"></script>

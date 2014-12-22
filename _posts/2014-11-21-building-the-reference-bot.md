@@ -71,27 +71,7 @@ Now you have a working bot.  You can plug your USB cable into the board and get 
 
 **bot.js**
 
-```javascript
-var five = require("johnny-five");
-var board = new five.Board();
-
-board.on("ready", function() {
-  var wheels = {
-    left: new five.Servo({ pin: 9, type: 'continuous' }),
-    right: new five.Servo({ pin: 10, type: 'continuous' })
-  };
-
-  // Add the wheels to the repl so you can control them at runtime
-  this.repl.inject({
-    wheels: wheels
-  });
-
-  // center the wheels
-  wheels.left.center();
-  wheels.right.center();
-});
-
-```
+<script src="http://gist-it.appspot.com/github/BrianGenisio/codemash-nodebots-docs/blob/master/examples/base-sumobot.js"></script>
 
 **__NOTE:__** When you run this code (`node bot.js`), the wheels may start spinning.  They have been centered, so this means they need to be trimmed until they stop spinning.  Use a screwdriver and trim them until they are silent.
 

@@ -7,3 +7,7 @@ order: 4
 ---
 
 ## Explain how to bump the reference kit to have it sense a line
+
+... and use this code vvvvv
+
+<script src="http://gist-it.appspot.com/github/BrianGenisio/codemash-nodebots-docs/blob/master/examples/base-line-follower.js"></script>
