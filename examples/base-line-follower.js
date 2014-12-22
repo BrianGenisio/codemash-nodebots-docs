@@ -44,15 +44,17 @@ board.on("ready", function () {
     // All sensors need to see the extremes so they can understand what a line is,
     // so move the eyes over the materials that represent lines and not lines during calibration.
     eyes.calibrateUntil(function () { return !calibrating; });
-    console.log("Press any key to end calibration and start running...");
+    console.log("Press the spacebar to end calibration and start running...");
     
-    stdin.on("keypress", function() {
+    stdin.on("keypress", function(chunk, key) {
+        if (key && key.name !== 'space') return;
+        
         calibrating = false;
         running = !running;
         
         if (!running) {
             wheels.stop();
-            console.log("Stopped running. Press any key to start again...")
+            console.log("Stopped running. Press the spacebar to start again...")
         }
     });
 
