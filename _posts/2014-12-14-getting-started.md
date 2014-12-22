@@ -9,6 +9,8 @@ order: 1
 
 This guide is intended to get you familiar with using Johnny-Five to control inputs and outputs of your Arduino.  This section is completely optional, but it is a good way to start.  Do as much as you'd like, or jump right into building your bot.  Your choice!
 
+WARNING: Some LEDs can be very bright, so you should avoid looking directly into them.
+
 ## Make an LED blink!
 First step, let's make sure everything is working.  You will be running JavaScript on your computer which will communicate to your Arduino board via Serial.
 
@@ -20,7 +22,9 @@ In this example, we'll just get an LED to blink.
 0. From there, install Johnny-Five: `npm install johnny-five`.  This will install into your "node_modules" folder.
 0. Create a file called "bot.js" and add the [LED Blink Code](#ledblink).
 0. Wire up an LED (provided) to pin 11 with a resistor (provided) in serial to ground.
+    - IMPORTANT: One leg of the LED is longer than the other. As shown in the wiring diagram below, make sure the shorter leg is connected to ground via the resistor and the longer leg is connected to pin 11.
 0. Run your bot: `node bot.js`.  You should see the LED blinking!
+    - If your LED is not lighting, double check you wired it correctly as noted in the previous step and shown in the wiring diagram below.
 
 <a name="ledblink"></a>
 **LED Blink Code:**
@@ -30,7 +34,6 @@ In this example, we'll just get an LED to blink.
 **LED Blink Wiring:**
 
 ![LED Wiring Diagram]({{ site.baseurl }}/assets/wirings/led.png)
-![LED Wiring Diagram]({{ site.baseurl }}/assets/wirings/led.jpg) 
 
 ## Make the LED pulse
 In the last example, you told the LED to turn on and off.  Internally, the `strobe()` method just turns the pin high and low over time.  We'd like to change this program to fade in and out over time.  Instead of going high or low, you will be using the PWM (pulse width modulation) features of the board.  You can set the values to anywhere between `0` and `255` which will create a "square wave" with a duty cycle that simulates a "percentage on".  
@@ -60,7 +63,6 @@ If you send a voltage from one outside pin to the ground of the other outside pi
 **Potentiometer Input Wiring:**
 
 ![Potentiometer Wiring Diagram]({{ site.baseurl }}/assets/wirings/led_control.png) 
-![Potentiometer Wiring Diagram]({{ site.baseurl }}/assets/wirings/led_control.jpg) 
 
 ## Control the LED using the Potentiometer
 Now that you know how to control the brightness of your LED and you know how to read an input, let's put these two together.  You want small changes in your potentiometer to adjust your LED brightness, so you need to do some translation.  
@@ -76,3 +78,4 @@ Instead, you can store the initial value and translate a swing of a small change
 **LED Control Code:**
 
 <script src="http://gist-it.appspot.com/github/BrianGenisio/codemash-nodebots-docs/blob/master/examples/led_control.js"></script>
+
