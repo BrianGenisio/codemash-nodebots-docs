@@ -47,7 +47,7 @@ board.on("ready", function () {
     console.log("Press the spacebar to end calibration and start running...");
     
     stdin.on("keypress", function(chunk, key) {
-        if (key && key.name !== 'space') return;
+        if (!key || key.name !== 'space') return;
         
         calibrating = false;
         running = !running;
