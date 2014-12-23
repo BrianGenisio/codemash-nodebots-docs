@@ -23,8 +23,8 @@ This is the only required software.  These are [NodeBots](http://nodebots.io) so
 - [Windows 64bit](http://nodejs.org/dist/v0.10.33/x64/node-v0.10.33-x64.msi)
 
 <a name="arduino"></a>
-## Arduino IDE (required)
-The Arduino IDE is useful if you want to run native C code with your Arduino boards.  In this lab, we will be using JavaScript on a host computer which communicates over serial to the Arduino.  We've pre-loaded the required code on your board, so you don't need the Arduino IDE for much.  It does, however, install some necessary drivers for USB to Serial.  You might want it, also, if you want to do more advanced things with your hardware.
+## Arduino IDE (required for Windows)
+The Arduino IDE is useful if you want to run native C code with your Arduino boards.  In this lab, we will be using JavaScript on a host computer which communicates over serial to the Arduino.  We've pre-loaded the required code on your board, so you don't need the Arduino IDE for much.  It does, however, install some necessary drivers for USB to Serial in Windows.  You might want it, also, if you want to do more advanced things with your hardware.  After you install it, run it once.
 
 - [OSX](http://arduino.cc/download.php?f=/arduino-1.0.6-macosx.zip)
 - [Windows](http://arduino.cc/download.php?f=/arduino-1.0.6-windows.exe)
