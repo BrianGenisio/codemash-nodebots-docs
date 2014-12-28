@@ -26,10 +26,6 @@ body {
     padding-bottom: 30px;
 }
 
-a {
-  text-decoration: underline;
-}
-
 pre, code {
     border: none;
     border-radius: 0;
