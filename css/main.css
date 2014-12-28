@@ -22,6 +22,8 @@
 body {
     font-weight: 400;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+    padding-top: 70px;
+    padding-bottom: 30px;
 }
 
 a {
@@ -43,22 +45,39 @@ code {
     color: inherit;
 }
 
+/**
+ * Application navbar header
+ */
 #header {
     background-color: #f7df1e;
-    border-bottom: 1px solid #eee;
-    margin-bottom: 20px;
+}
+
+#header h2, #header h3, #header h4, #header h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#header .logo {
+    float: right;
+    width: 33px;
+    margin-top: -18px;
 }
 
 #header a:hover {
     text-decoration: none;
 }
 
+
+/**
+ * Application footer
+ */
 #footer {
     margin: 20px 0;
     font-size: 0.85em;
     color: #999;
     text-align: center;
 }
+
 
 #content > .page-header:first-child {
     margin-top: 0;
@@ -80,14 +99,17 @@ code {
     font-weight: bold;
 }
 
-#header .logo {
-    float: right;
-    width: 33px;
-    margin-top: -10px;
+.jumbotron p {
+    font-size: 18px;
 }
 
 .intro p:first-of-type {
-  text-align: center;
+    text-align: center;
+}
+
+.intro-logo {
+    float: right;
+    padding-left: 24px;
 }
 
 .what-is-codemash p:first-of-type {
