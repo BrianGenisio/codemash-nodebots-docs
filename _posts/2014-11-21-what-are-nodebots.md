@@ -7,7 +7,7 @@ date: 2014-11-21
 order: 0
 ---
 
-![CodeMash logo]({{ site.baseurl }}/assets/nodebots.png)
+<img class="logo intro-logo" src="{{ site.baseurl }}/assets/nodebots.png" />
 
 [NodeBots](http://nodebots.io) are any kind of physical machine powerd by JavaScript and [Node.js](http://nodejs.org).  These "bots" can be drones, vehicles, sumos, humanoids, robot arms, connected thermostats, pretty LED arrays, weather stations, augmented clothing, or anything else you can imagine combining software with hardware and electronics.
 

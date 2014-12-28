@@ -3,9 +3,9 @@ layout: index
 title: "Welcome to NodeBots @CodeMash"
 ---
 
-# Welcome to CodeMash NodeBots!
+<img class="logo intro-logo" src="{{ site.baseurl }}/assets/nodebots.codemash.final.png" />
 
-![NodeBots CodeMash logo]({{ site.baseurl }}/assets/nodebots.codemash.final.png)
+## Welcome to CodeMash NodeBots!
 
 **[SAVE YOUR SEAT!  Supplies are limited!](http://www.codemash.org/save-seat2/)**
 
@@ -14,10 +14,3 @@ Armed with an Arduino, MacGyver-like circuitry, cheap wood, and JavaScript, can 
 Feeling more like a pacifist? Compete in our Line Racer challenge instead. Don’t feel like competing? We’ll have all sorts of platforms, boards, components, supplies, etc for hacking robots however you want.
 
 For more photos and musings, follow us on twitter! [@NodeBots_CM](http://twitter.com/nodebots_cm)
-
-
-
-
-
-
-

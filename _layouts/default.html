@@ -15,13 +15,13 @@
     </head>
     <body>
 
-        <div class="container-fluid">
-            <div class="row">
-                <div id="header" class="col-md-12">
-                    {% include header.html %}
-                </div>
+        <div class="navbar navbar-fixed-top" id="header">
+            <div class="container">
+                {% include header.html %}
             </div>
+        </div>
 
+        <div class="container-fluid">
             <div class="row">
                 {% assign post_count = site.posts|size %}
                 {% if site.navigation != 0 and site.navigation == 1 or post_count > 0 %}

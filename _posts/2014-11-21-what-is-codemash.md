@@ -7,7 +7,7 @@ date: 2014-11-21
 order: 0
 ---
 
-![CodeMash logo]({{ site.baseurl }}/assets/codemash.gearhead.png)
+<img class="logo intro-logo" src="{{ site.baseurl }}/assets/codemash.gearhead.png" />
 
 [CodeMash](http://codemash.org) is a really great regional software conference in the Midwest.  CodeMash is home to some of the greatest technical polyglot content in the country.  Sporting over 2000 attendees, and hosted at an [indoor waterpark](http://www.kalahariresorts.com/ohio) in the dead of the winter, CodeMash has become a favorite technical conference for us all.
 
