@@ -1,10 +1,8 @@
 
-# NodeBots
+# NodeBots @ CodeMash
 
-From the terminal, pop in:
+![NodeBots at CodeMash](assets/nodebots.codemash.final.png)
 
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+- @BrianGenisio
+- @JohnChapman
+- @CareEvolution

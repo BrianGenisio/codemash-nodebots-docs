@@ -1,1 +1,18 @@
-["index.md"]
+[
+    "index.md",
+    "what-is-a-nodebot.md",
+    "why-would-you-do-such-a-thing.md",
+    "our-flavor-of-nodebot.md",
+    "start-with-a-simple-bot.md",
+    "and-morph-it-into-a-sumobot.md",
+    "and-fight.md",
+    "or-build-an-autonomous-line-follower.md",
+    "and-race.md",
+    "or-just-build-something-awesome.md",
+    "safety-first.md",
+    "9v-batteries.md",
+    "can-we-keep-it.md",
+    "get-started.md",
+    "help-is-on-the-way.md",
+    "have-fun-learning.md"
+]
