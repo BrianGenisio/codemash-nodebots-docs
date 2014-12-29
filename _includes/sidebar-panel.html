@@ -1,0 +1,15 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        {{ label }}
+    </div>
+    <div class="panel-body">
+        <ul class="nav nav-sidebar">
+            {% assign sorted-category = category | sort: 'order' %}
+            {% for page in sorted-category %}
+                <li>
+                    <a role="presentation" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
