@@ -32,6 +32,7 @@ Using the ribbon cable, connect the sensor array to the Arduino board according 
 
 ![Line follower wiring](/assets/wirings/sensor-array.jpg)
 
+The following image shows the Arduino end of the connections.
 ![Line follower wiring view](/assets/nodebot-assemble/line-follower-wiring.jpg)
 
 ## Reprogram your bot
