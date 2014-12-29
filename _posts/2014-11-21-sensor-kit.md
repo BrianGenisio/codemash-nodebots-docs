@@ -39,4 +39,14 @@ The following image shows the Arduino end of the connections.
 
 Now that the hardware is ready, you need to program your bot to follow a line. The following code provides a useful starting point for your line-following bot.
 
+**bot.js**
+
 <script src="http://gist-it.appspot.com/github/BrianGenisio/codemash-nodebots-docs/blob/master/examples/base-line-follower.js"></script>
+
+**__NOTE:__** When you run this code (`node bot.js`), the wheels may start spinning.  They have been centered, so this means they need to be trimmed until they stop spinning.  Use a screwdriver and trim them until they are silent.
+
+### Resources:
+- [Johnny-Five Docs](https://github.com/rwaldron/johnny-five/wiki/Servo)
+- [Johnny-Five Servo Docs](https://github.com/rwaldron/johnny-five/wiki/Servo)
+- [Johnny-Five IR Reflectance Array Docs](https://github.com/rwaldron/johnny-five/wiki/IR.Reflect.Array)
+- [Reading Keypresses](http://stackoverflow.com/questions/5006821/nodejs-how-to-read-keystrokes-from-stdin)
