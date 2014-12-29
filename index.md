@@ -13,4 +13,6 @@ Armed with an Arduino, MacGyver-like circuitry, cheap wood, and JavaScript, can 
 
 Feeling more like a pacifist? Compete in our Line Racer challenge instead. Don’t feel like competing? We’ll have all sorts of platforms, boards, components, supplies, etc for hacking robots however you want.
 
-For more photos and musings, follow us on twitter! [@NodeBots_CM](http://twitter.com/nodebots_cm)
+For more photos and musings, follow us on twitter! <a href="http://twitter.com/nodebots_cm"><i class="fa fa-twitter-square fa-2x"></i> @nodebots_cm</a>
+
+We also have a Chat Room! [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BrianGenisio/codemash-nodebots-docs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)

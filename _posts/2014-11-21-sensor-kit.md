@@ -12,7 +12,7 @@ To build a line-following bot, you will need to add a sensor array to the refere
 
  - (1) [Reference kit bot](http://nodebots.codemash.org/tut/building-the-reference-bot.html)
  - (1) IR Reflectance Sensor Array
- - (1) Male-to-male ribbon cable with at least 9 wires
+ - (1) Female-to-female ribbon cable with at least 9 wires
  - Padded double-sided tape
  
 As with the reference kit, you are encouraged to pursue your own design when adding line-following to your bot. However, this is an example of how you can simply extend a bot to make it a line-follower.
