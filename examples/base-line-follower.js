@@ -62,9 +62,9 @@ board.on("ready", function () {
         if(!running) return;
     
         if (line < 1000) {
-            wheels.pivotRight();
-        } else if (line > 4000) {
             wheels.pivotLeft();
+        } else if (line > 4000) {
+            wheels.pivotRight();
         } else {
             wheels.forward();
         }
