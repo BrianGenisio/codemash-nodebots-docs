@@ -4,9 +4,10 @@
     </div>
     <div class="panel-body">
         <ul class="nav nav-sidebar">
-            {% for page in category %}
-                <li data-order="{{ page.order }}">
-                    <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+            {% assign sorted-category = category | sort: 'order' %}
+            {% for page in sorted-category %}
+                <li>
+                    <a role="presentation" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
                 </li>
             {% endfor %}
         </ul>
