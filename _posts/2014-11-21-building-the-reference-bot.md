@@ -25,6 +25,8 @@ The kit you were given includes the following components:
 
 You are encouraged to build your bot however you want, but this is how you can build it without any modifications from the original design.
 
+![Complete Bot](/assets/nodebot-assemble/nodebot-complete.jpg)
+
 ### Lay out your parts
 You want to get a feel for where everything will go.  Lay your major components out on the board and rough-in where you think you'd like them to go.
 
