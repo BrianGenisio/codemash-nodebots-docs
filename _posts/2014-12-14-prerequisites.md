@@ -30,14 +30,13 @@ The Arduino IDE is useful if you want to run native C code with your Arduino boa
 - [Windows](http://arduino.cc/download.php?f=/arduino-1.0.6-windows.exe)
 
 <a name="git"></a>
-## Git (optional but recommended)
-The open source community runs on [Git](http://git-scm.com/) and [GitHub](http://github.com).  All of our examples as well as anything else you are likely to want to bring in will be on Git.  Because of this, we recommend that you have Git.  You can get away with not installing it if you prefer -- you can just download Zip files from GitHub -- so it is optional.  If you don't already have Git installed, we recommend installing the GitHub client.
+## Git (recommended)
+The open source community runs on [Git](http://git-scm.com/) and [GitHub](http://github.com).  All of our examples as well as anything else you are likely to want to bring in will be on Git.  Because of this, we recommend that you have Git.  You can get away with not installing it if you prefer -- you can just download Zip files from GitHub -- so it is optional.  If you don't already have Git installed, we recommend installing the GitHub client on Windows.  For the Mac, open up a command line and type `git --version`.  If it is already installed, you will get a version back.  If not, OSX will ask you to install the necessary components automatically.
 
-- [OSX](https://central.github.com/mac/latest)
 - [Windows](https://github-windows.s3.amazonaws.com/GitHubSetup.exe)
 
 <a name="vs"></a>
-## Visual Studio Tools for Node.js (optional)
+## Visual Studio Tools for Node.js (optional for Windows)
 Some Windows users prefer the Visual Studio environment when developing in Node.  If you think you'd like to do that, you can install the tools for Visual Studio 2012 or 2013
 
 - [VS 2012](http://nodejstools.codeplex.com/downloads/get/946896)
