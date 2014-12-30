@@ -18,9 +18,9 @@ order: 0
 ## Node.js (required) 
 This is the only required software.  These are [NodeBots](http://nodebots.io) so they require [Node.js](http://nodejs.org) to run. Node is a JavaScript runtime based on the V8 engine.  It is how you will be running the code today.  Just download and install it.
 
-- [OSX](http://nodejs.org/dist/v0.10.33/node-v0.10.33.pkg)
-- [Windows 32bit](http://nodejs.org/dist/v0.10.33/node-v0.10.33-x86.msi)
-- [Windows 64bit](http://nodejs.org/dist/v0.10.33/x64/node-v0.10.33-x64.msi)
+- [OSX](http://nodejs.org/dist/v0.10.35/node-v0.10.35.pkg)
+- [Windows 32bit](http://nodejs.org/dist/v0.10.35/node-v0.10.35-x86.msi)
+- [Windows 64bit](http://nodejs.org/dist/v0.10.35/x64/node-v0.10.35-x64.msi)
 
 <a name="arduino"></a>
 ## Arduino IDE (required for Windows)
