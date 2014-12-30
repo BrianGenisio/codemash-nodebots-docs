@@ -7,7 +7,7 @@ order: 0
 ---
 
 0. [Node.js (required)](#nodejs)
-0. [Arduino IDE (required)](#arduino)
+0. [Arduino IDE (required for Windows)](#arduino)
 0. [Git (optional but recommended)](#git)
 0. [Visual Studio Tools (optional)](#vs)
 0. [Sublime Text (optional)](#sublime)
