@@ -12,7 +12,7 @@ If you are feeling more like a pacifist and you don't want to fight your bot, th
 
 0. You may use any materials you wish to build your bot.
 0. You will be timed as you traverse the track **twice**.
-0. A perpendicular line will indicate the finish line.  You must stop your bot on the line after your second lap.  Failure to do so will result in a 2 second penalty.  This also means that you must not stop on the line after the first lap!
+0. A perpendicular line will indicate the start/finish line (same spot).  Your sensor will start on this line and your bot must stop on the line after your **second lap**.  Failure to do so will result in a 2 second penalty.  This also means that you must not stop on the line after the first lap!
 0. Your line sensor must stay on the line at all times.  Failure to do so will result in a 1 second penalty for each divergence.
 0. The minimum turn radius will be 4 inches.
 
