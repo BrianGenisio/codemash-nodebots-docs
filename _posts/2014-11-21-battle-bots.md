@@ -6,12 +6,12 @@ date: 2014-11-21
 order: 0
 ---
 
-One of the activities at this event is "Battle Bots".  When you build a battle bot, you are competing in a head-to-head battle, much like a wrestling or sumo match.  There will be a ring, and your job will be to push your oponent out of the ring.
+One of the activities at this event is "Battle Bots".  When you build a battle bot, you are competing in a head-to-head battle, much like a wrestling or sumo match.  There will be a ring, and your job will be to push your opponent out of the ring.
 
 **Here are the rules**
 
 0. Build your bot however you want, but use the two continuous servos as your primary drive mechanism.
-0. The arena is a hexagon, approximately 4 feet wide on carpet.
+0. The arena is a hexagon, approximately 4 feet wide, on carpet.
 0. You have one minute to knock your opponent completely out of the arena.  This is considered a KO.
 0. If after one minute, a KO is not achieved, the bot with their Arduino closest to the center dot wins.
 0. We will probably set this up as a single-elimination bracket, so build your bot to fight more than once.
