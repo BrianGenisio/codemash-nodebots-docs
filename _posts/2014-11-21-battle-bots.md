@@ -15,6 +15,7 @@ One of the activities at this event is "Battle Bots".  When you build a battle b
 0. You have one minute to knock your opponent completely out of the arena.  This is considered a KO.
 0. If after one minute, a KO is not achieved, the bot with their Arduino closest to the center dot wins.
 0. We will set this up as a randomized single-elimination bracket, so build your bot to fight more than once.
+0. All rules are subject to interpetation by the referee.
 
 You have full access to the maker space.  If you build the reference kit, you are very unlikely to win.  You need to innovate.  What kinds of modifications can you make to give yourself an advantage?
 
