@@ -11,10 +11,10 @@ One of the activities at this event is "Battle Bots".  When you build a battle b
 **Here are the rules**
 
 0. Build your bot however you want, but use the two continuous servos as your primary drive mechanism.
-0. The arena is a hexagon, approximately 4 feet wide, on carpet.
+0. The arena is a hexagon, 1 meter wide, on carpet.
 0. You have one minute to knock your opponent completely out of the arena.  This is considered a KO.
 0. If after one minute, a KO is not achieved, the bot with their Arduino closest to the center dot wins.
-0. We will probably set this up as a single-elimination bracket, so build your bot to fight more than once.
+0. We will set this up as a randomized single-elimination bracket, so build your bot to fight more than once.
 
 You have full access to the maker space.  If you build the reference kit, you are very unlikely to win.  You need to innovate.  What kinds of modifications can you make to give yourself an advantage?
 
