@@ -1,22 +1,21 @@
-# Welcome
+# Welcome to the CodeMash NodeBots documentation
+
+There are several things here that are useful for creating a successful event.
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BrianGenisio/codemash-nodebots-docs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This is a place to find information about Nodebots at [CodeMash](http://codemash.org) 2015.  Here, you will find several examples and it is where the [documentation site](http://nodebots.codemash.org) is hosted (see the `gh-pages` branch for documentation).
-
-## To run the examples: 
-First, install the dependencies:
+## Examples
+First, install the dependencies, then run the examples:
 ```
 npm install
+node examples.strobe.js
 ```
 
-Then, pick an example and run it: 
-
-```
-node examples/strobe.js
-```
-
-* Replace `strobe.js` with whatever example you want to run.
+## Resources
+- The website for the event is in Jekyll.  You can find it in the [gh-pages](../../tree/gh-pages) branch
+- The inventory can be found in [inventory.md](./inventory.md)
+- Some notes about running the event can be found in [notes.md](./notes.md)
+- The parts list for the bot kit can be found in [bot-kit.md](./bot-kit.md)
 
 ## Video from the event
 - [The final battle from the winners of both days](https://www.youtube.com/watch?v=H9AzpnXpcrU)
