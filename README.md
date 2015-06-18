@@ -12,7 +12,7 @@ node examples.strobe.js
 ```
 
 ## Resources
-- The website for the event is in Jekyll.  You can find it in the [gh-pages](../../tree/gh-pages) branch
+- The website for the event is in Jekyll.  You can find it in the [gh-pages](../../tree/gh-pages) branch.  It contains all of the user documentation, like how to build the reference kit, and details for the components and such.  It is a good basis for another NodeBots event website.
 - The inventory can be found in [inventory.md](./inventory.md)
 - Some notes about running the event can be found in [notes.md](./notes.md)
 - The parts list for the bot kit can be found in [bot-kit.md](./bot-kit.md)
